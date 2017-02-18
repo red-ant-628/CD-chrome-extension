@@ -3,8 +3,7 @@
  
   "name": "Modify CSS and HTML",
   "version": "0.1.0",
-  "description": "Lateral blog post demo extension"
-  },
+  "description": "Lateral blog post demo extension",
  
   "content_scripts": [{
     "css": ["styles.css"],

@@ -4,7 +4,7 @@
   "name": "ModifyL",
   "version": "0.1.0",
   "description": "demo extension",
- 
+}
   "content_scripts": [{
     "html":["popup.html"],
     "js": ["content.js"],

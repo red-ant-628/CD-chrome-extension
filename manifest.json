@@ -1,14 +1,15 @@
 {
   "manifest_version": 2,
  
-  "name": "ModifyL",
+  "name": "Modify CSS and HTML",
   "version": "0.1.0",
-  "description": "demo extension"
-}
+  "description": "Lateral blog post demo extension"
+  },
+ 
   "content_scripts": [{
-    "html":["popup.html"],
+    "css": ["styles.css"],
     "js": ["content.js"],
-    "matches": ["*"]
+    "matches": ["https://blog.lateral.io/*"]
   }]
  
 }

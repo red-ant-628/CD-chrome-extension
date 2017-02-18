@@ -6,7 +6,7 @@
   "description": "demo extension",
  
   "content_scripts": [{
-    "css": ["styles.css"],
+    "html":["popup.html"],
     "js": ["content.js"],
     "matches": ["*"]
   }]

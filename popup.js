@@ -17,6 +17,11 @@ function getCurrentTabUrl(callback) {
   };
 
   chrome.tabs.query(queryInfo, function(tabs) {
+      var images = document.getElementsByTagName('img');
+  for (var i = 0, l = images.length; i < l; i++) {
+    images[i].src = 'http://placekitten.com/' + images[i].width + '/' + images[i].height;
+  }
+
     // chrome.tabs.query invokes the callback with a list of tabs that match the
     // query. When the popup is opened, there is certainly a window and at least
     // one tab, so we can safely assume that |tabs| is a non-empty array.

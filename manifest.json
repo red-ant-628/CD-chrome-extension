@@ -8,6 +8,7 @@
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
+    "html": ["popup.html"],
     "matches": ["<all_urls>"]
   }]
  

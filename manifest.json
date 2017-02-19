@@ -18,6 +18,7 @@
     "css": ["styles.css"],
     "js": ["content.js"],
     "matches": ["<all_urls>"]
+    "persistent": false/true
   }]
  
 }

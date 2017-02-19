@@ -1,11 +1,13 @@
 body {
   background: url('http://cdn.wallpapersafari.com/88/18/b7yhi5.jpg') !important;
+  color: black
+  font: "Comic Sans MS", cursive, sans-serif
 }
  
 #masthead,
 #primary {
-  -webkit-filter: invert(1%);
-  filter: invert(1%);
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
   background-color: #fff;
   padding: 20px !important;
 }

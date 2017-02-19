@@ -2,7 +2,7 @@ body {
   background: url('http://res.freestockphotos.biz/pictures/9/9343-a-cute-orange-kitten-isolated-on-a-white-background-pv.jpg') !important;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+html {
     color: black;
     font-family: "Comic Sans MS", cursive, sans-serif;
 }

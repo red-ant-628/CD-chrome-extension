@@ -10,9 +10,7 @@ html, body, section, div, h1, h2, h3, h4, h5, h6, dd, dl, ul, ol, li, menu, main
 
 #masthead,
 #primary {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-  background-color: #fff;
+  background-color: #4682b4;
   padding: 20px !important;
 }
 #masthead {

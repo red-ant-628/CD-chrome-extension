@@ -1,7 +1,7 @@
 body {
   background: url('http://cdn.wallpapersafari.com/88/18/b7yhi5.jpg') !important;
   color: black;
-  font: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Comic Sans MS", cursive, sans-serif;
 }
  
 #masthead,

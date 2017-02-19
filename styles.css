@@ -4,8 +4,8 @@ body {
  
 #masthead,
 #primary {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
+  -webkit-filter: invert(1%);
+  filter: invert(1%);
   background-color: #fff;
   padding: 20px !important;
 }

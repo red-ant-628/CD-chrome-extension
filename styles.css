@@ -9,8 +9,9 @@ html, body, section, div, h1, h2, h3, h4, h5, h6, dd, dl, ul, ol, li, menu, main
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  border-style: solid;
-    background-color: white;
+  border-style: 0.1px solid white;
+  background-color: white;
+  border-radius: 5px;
 }
 
 #masthead,

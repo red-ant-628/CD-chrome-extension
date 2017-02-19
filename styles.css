@@ -13,16 +13,3 @@ h1, h2, h3, h4, h5, h6, p {
   background-color: white;
   border-radius: 5px;
 }
-
-#masthead,
-#primary {
-  background-color: #4682b4;
-  padding: 20px !important;
-}
-#masthead {
-  background: none;
-}
-#masthead img, #primary img {
-  -webkit-filter: invert(100%);
-  filter: invert(100%);
-}

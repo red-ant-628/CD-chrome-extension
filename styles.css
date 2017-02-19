@@ -6,7 +6,10 @@ html, body, section, div, h1, h2, h3, h4, h5, h6, dd, dl, ul, ol, li, menu, main
     color: black;
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-variant: small-caps;
-    border-style: groove;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  border-style: groove;
     background-color: white;
 }
 

@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
  
-  "name": "The Cats, Though",
+  "name": "Kittens Konquer",
   "version": "0.1.0",
-  "description": "When you want cats, you want cats.",
+  "description": "When you want cats taking over your browser, you want cats taking over your browser.",
   
     "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-    "default_title": "PermeatingKittens"
+    "default_title": "Kittens Konquer"
   },
   "permissions": [
     "activeTab",
@@ -20,9 +20,6 @@
     "js": ["jquery-3.1.1.min.js", "content.js"],
     "matches": ["<all_urls>"]
   }]
-  
- "background": {
-  "scripts": ["background.js"]
-}
  
+
 }
